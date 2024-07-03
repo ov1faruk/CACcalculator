@@ -1,0 +1,79 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    text-align: center;
+    color: #f1c40f; /* Yellow accent */
+    font-size: 2.5em; /* Larger font size */
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 15px;
+    color: #ccc;
+}
+
+input, select {
+    width: calc(100% - 16px);
+    padding: 12px; /* Larger padding */
+    margin-top: 10px; /* Increased top margin */
+    margin-bottom: 20px; /* Increased bottom margin */
+    border: 1px solid #555;
+    background-color: #444;
+    color: #ccc;
+    border-radius: 8px;
+    font-size: 1.1em; /* Larger font size */
+}
+
+input[type="number"] {
+    appearance: textfield; /* Hide number input spinner */
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #f1c40f; /* Yellow accent on focus */
+    box-shadow: 0 0 10px rgba(241, 196, 15, 0.8); /* Yellow shadow on focus */
+}
+
+button {
+    width: 100%;
+    padding: 15px; /* Larger padding */
+    margin-top: 30px; /* Increased top margin */
+    background-color: #f1c40f; /* Yellow accent */
+    color: #333; /* Dark text */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.2em; /* Larger font size */
+}
+
+button:hover {
+    background-color: #f39c12; /* Darker yellow on hover */
+}
+
+#result {
+    margin-top: 30px; /* Increased top margin */
+}
+
+#result p {
+    font-size: 1.2em;
+    color: #ccc;
+    margin-bottom: 10px;
+    line-height: 1.5; /* Improved line spacing */
+}
