@@ -257,3 +257,6 @@ button:hover {
     100% { background-position: -200% center; }
 }
 
+.green-heading {
+    color: #91B979;  /* Pure green, but you can choose any shade */
+}
